@@ -1,3 +1,22 @@
 .navbar{
     background-color: rgb(155, 184, 184) !important;
 }
+h1, h2{
+  font-family: 'Times New Roman', Times, serif;  
+}
+
+h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.hero{
+    background: #f9f7fe;
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.hero p{
+   font-size: 36px;
+   font-weight: bold;
+}
