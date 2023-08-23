@@ -1,26 +1,37 @@
-.navbar{
-    background-color: rgb(155, 184, 184) !important;
+.navbar {
+  background-color: rgb(155, 184, 184) !important;
 }
-h1, h2{
-  font-family: 'Times New Roman', Times, serif;  
-}
-
-h1{
-    font-size: 80px;
-    font-weight: bold;
+h1,
+h2 {
+  font-family: "Times New Roman", Times, serif;
 }
 
-.hero{
-    background: #f9f7fe;
-    text-align: center;
-    padding: 80px 10px;
+h1 {
+  font-size: 80px;
+  font-weight: bold;
 }
 
-.hero p{
-   font-size: 24px; 
-   text-align: center;
+.hero {
+  background: rgb(200, 221, 221);
+  text-align: center;
+  padding: 120px 10px;
 }
 
-.introduction{
-  
+.hero h6 {
+  font-size: 24px;
+  padding: 20px 60px;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}
+
+.introduction {
+  border-radius: 20px;
+  background: rgb(188, 221, 221);
+  margin: 80px;
+  padding: 50px;
+}
+
+.imojiContainer {
+  font-size: 90px;
+  line-height: 1.3;
 }
