@@ -70,7 +70,6 @@ a {
 
 button {
   background-color: var(--primary-color);
-
   border: 1px solid var(--primary-color);
   border-radius: 8px;
   font-size: 20px;
@@ -92,6 +91,14 @@ p {
   font-family: "Playfair Display", serif;
   font-weight: normal;
   line-height: 25px;
+}
+
+.project-discriptions {
+  margin-top: 60px;
+}
+.project-discriptions h1 {
+  font-size: 40px;
+  font-weight: bold;
 }
 
 @media (max-width: 900px) {
@@ -128,5 +135,27 @@ p {
   .introduction {
     margin: 20px 0;
     padding: 20px 0;
+  }
+
+  .project-discriptions h1 {
+    text-align: center;
+    font-size: 20px;
+  }
+  .discription-container {
+    text-align: center;
+  }
+
+  .discription-container button {
+    margin-bottom: 30px;
+  }
+
+  .discription-container h2 {
+    margin-top: 30px;
+    text-align: center;
+  }
+
+  .discription-container img {
+    display: block;
+    margin: 0 auto;
   }
 }
