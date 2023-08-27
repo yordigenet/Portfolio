@@ -63,7 +63,7 @@ img {
   padding: 30px;
 }
 
-a {
+.button-link {
   text-decoration: none;
   color: var(--secondary-color);
 }
@@ -94,6 +94,7 @@ p {
 }
 
 .project-discriptions {
+  text-align: center;
   margin-top: 60px;
 }
 .project-discriptions h1 {
