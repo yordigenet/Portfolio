@@ -2,6 +2,7 @@
   --primary-color: rgb(155, 184, 184);
   --secondary-color: rgb(24, 26, 26);
   --third-color: rgb(188, 221, 221);
+  --fourth-color: rgb(151, 64, 234);
 }
 
 .navbar {
@@ -104,6 +105,47 @@ p {
 .project-discriptions h1 {
   font-size: 40px;
   font-weight: bold;
+}
+
+footer{
+  margin: 50px 0;
+}
+footer h2{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.container-footer{
+  margin: 60px 230px;
+}
+.contact-box{
+  background: var(--third-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+.email-link{
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--secondary-color);
+}
+
+.email-link:hover{
+  color: var(--fourth-color);
+}
+
+.address-link a{
+margin: 0 20px;
+color: var(--fourth-color);
+background: rgb(207, 222, 222);
+padding: 10px 15px;
+font-size: 20px;
+border-radius: 50%;
+transition: all 100ms ease-in-out;
+}
+
+.address-link a:hover {
+  color: white;
+  background: var(--fourth-color);
 }
 
 @media (max-width: 900px) {
