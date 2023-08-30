@@ -110,7 +110,7 @@ p {
 footer{
   margin: 50px 0;
 }
-footer h2{
+footer h4{
   font-size: 40px;
   font-weight: bold;
 }
@@ -122,6 +122,10 @@ footer h2{
   background: var(--third-color);
   padding: 30px 120px;
   border-radius: 10px;
+}
+
+.contact-box p{
+  margin: 0;
 }
 .email-link{
   text-decoration: none;
